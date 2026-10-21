@@ -8,8 +8,7 @@ export const siteConfig = {
     whatsapp: 'https://chat.whatsapp.com/Dwc6nroiOo659jhUD6T6OM?s=cl&p=a&mlu=4&ilr=4',
     communityForm: 'https://docs.google.com/forms/d/e/1FAIpQLSf8LAl6Jk9LI9Z3subo_69bTtE2hJhoXiTeFHB_mJIXN11Vcg/viewform?usp=sharing&ouid=110064509515095147441',
     instagram: 'https://www.instagram.com/iisu_acm_w?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==',
-    linkedin: '',
-    github: '',
+    linkedin: 'https://www.linkedin.com/in/iisu-acm-w-student-chapter-58b319437/',
     college: 'https://iisuniv.ac.in/',
     map: 'https://www.google.com/maps/search/?api=1&query=IIS+Deemed+to+be+University,+Jaipur',
   },
@@ -55,7 +54,7 @@ export const events = [
     date: '24 Sep 2026',
     dateValue: '2026-09-24',
     category: 'Competition' as EventCategory,
-    status: 'Upcoming',
+    status: 'Completed',
     description: 'An activity designed to introduce students to the fundamentals of AI prompting and encourage effective, creative and structured ways of communicating with AI tools. Participants can explore prompt writing, logical thinking, creativity and practical applications of generative AI. Open to students from all departments.',
     accent: 'orbit'
   },
@@ -65,7 +64,7 @@ export const events = [
     date: '15 Sep 2026',
     dateValue: '2026-09-15',
     category: 'Community' as EventCategory,
-    status: 'Upcoming',
+    status: 'Completed',
     description: 'A student-focused orientation to help newcomers get familiar with the chapter, the community and the kinds of things they can explore, build and participate in with ACM-W.',
     accent: 'signal'
   },
@@ -197,11 +196,7 @@ export const teamGroups: { title: string; members: TeamMemberData[] }[] = [
         image: '/assets/team/saloni-choudhary.png',
         linkedin: 'https://www.linkedin.com/in/saloni-choudhary-b0849435a?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         intro: `Professional overthinker, curious builder, and unapologetic perfectionist.
-I love turning random ideas into something real—and then spending way too long making it just right.
-I can spend hours fixing a tiny detail that nobody else would probably notice.
-I ask “why?” a little too often because understanding things matters more to me than just getting them done.
-Somewhere between coding, creating, and overthinking, I’m always trying to make things a little better.
-Basically: I don’t believe in “good enough”... and yes, it sometimes takes me forever.`
+I love turning random ideas into something real—and then spending way too long making it just right. I can spend hours fixing a tiny detail that nobody else would probably notice. I ask “why?” a little too often because understanding things matters more to me than just getting them done. Somewhere between coding, creating, and overthinking, I’m always trying to make things a little better. Basically: I don’t believe in “good enough”... and yes, it sometimes takes me forever.`
       },
       {
         name: 'Jigyasa Gupta',
@@ -224,12 +219,7 @@ I look forward to learning, contributing, and being a part of the team.`
         role: 'Membership Chair',
         image: '/assets/team/garvita-vyas.png',
         linkedin: 'https://www.linkedin.com/in/garvita-vyas?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
-        intro: `Hi, I’m Garvita Vyas, and I love exploring technology, learning new things, and turning ideas into opportunities!
-As the Membership Chair of the ACM-W Chapter at IIS University, Jaipur, I’m all about bringing people together.
-I love welcoming new members and making sure everyone feels connected and involved.
-I believe great communities are built through people, conversations, collaboration, and shared ideas.
-For me, ACM-W is a space to learn, grow, connect, and build confidence together.
-And of course, to have a little fun while doing it!`
+        intro: `Hi, I’m Garvita Vyas, and I love exploring technology, learning new things, and turning ideas into opportunities! As the Membership Chair of the ACM-W Chapter at IIS University, Jaipur, I’m all about bringing people together. I love welcoming new members and making sure everyone feels connected and involved. I believe great communities are built through people, conversations, collaboration, and shared ideas. For me, ACM-W is a space to learn, grow, connect, and build confidence together. And of course, to have a little fun while doing it!`
       },
       {
         name: 'Tamiksha Sharma',
@@ -243,15 +233,7 @@ And of course, to have a little fun while doing it!`
         role: 'Treasurer',
         image: '/assets/team/sapna-choudhary.png',
         linkedin: 'https://www.linkedin.com/in/sapna-choudhary-06b13238a/',
-        intro: `Curious by nature, slightly prone to overthinking, and always ready to learn something new.
-
-I’m the kind of person who can start with “I’ll just learn this quickly” and somehow end up exploring five completely different things.
-
-I enjoy technology, cybersecurity, trying new ideas, and understanding how things actually work rather than just memorising them.
-
-Still figuring things out, still asking questions, and probably opening another tab to find the answer.
-
-Basically: curious mind, too many questions, and never enough tabs.`
+        intro: `Curious by nature, slightly prone to overthinking, and always ready to learn something new. I’m the kind of person who can start with “I’ll just learn this quickly” and somehow end up exploring five completely different things. I enjoy technology, cybersecurity, trying new ideas, and understanding how things actually work rather than just memorising them. Still figuring things out, still asking questions, and probably opening another tab to find the answer. Basically: curious mind, too many questions, and never enough tabs.`
       },
     ]
   },
@@ -263,7 +245,7 @@ Basically: curious mind, too many questions, and never enough tabs.`
         role: 'Website Architect & Developer',
         image: '/assets/team/reva-saxena.png',
         linkedin: 'https://in.linkedin.com/in/reva-saxena-61bb33342',
-        intro: `Hey! I’m ray-waa, into tech, creativity, good design, data analysis, and ideas that start with “wait, hear me out.” I’ve always liked building things, trying new stuff, and turning random thoughts into full-blown projects, which probably explains why I’m constantly jumping between ideas, getting way too invested in the tiniest details, and occasionally disappearing into a completely unnecessary rabbit hole. There’s a little Cassie Howard in the way I romanticise everything and a little Princess Carolyn in the way I somehow manage to get things done anyway. When I’m not coding or working on something, I’m probably curating my Pinterest, or finding something new to obsess over. I like ambitious people, good conversations, creative chaos, and making things that actually feel like me, so I’m quite keen to learn, build, meet new people, and see where ACM takes me. I’m still figuring it all out, but I’ve got a feeling it’s going to be a good story.`
+        intro: `Hey! I’m ray-waa, kinda into tech, creativity, good design, data analysis, and ideas that start with “wait, hear me out.” I’ve always liked building things, trying new stuff, and turning random thoughts into full-blown projects, which probably explains why I’m constantly jumping between ideas, getting way too invested in the tiniest details, and occasionally disappearing into a completely unnecessary rabbit hole. There’s a little Cassie Howard in the way I romanticise everything and a little Princess Carolyn in the way I somehow manage to get things done anyway. When I’m not coding or working on something, I’m probably curating my Pinterest, or finding something new to obsess over. I like ambitious people, good conversations, creative chaos, and making things that actually feel like me, so I’m quite keen to learn, build, meet new people, and see where ACM takes me. I’m still figuring it all out, but I’ve got a feeling it’s going to be a good story.`
       },
     ]
   }
